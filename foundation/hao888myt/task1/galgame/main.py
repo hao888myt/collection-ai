@@ -7,7 +7,7 @@ from typing import Any
 
 from classes.data_class.save_data import SaveData
 from classes.loader.file_loader import FileLoader
-from classes.printer.dialogue_printer import DialoguePrinter
+from classes.util.dialogue_printer import DialoguePrinter
 from classes.util.util import get_galgame_path, to_dict
 from const.enum import ConditionType
 from const.path import SAVE_PATH, SCENE_PATH

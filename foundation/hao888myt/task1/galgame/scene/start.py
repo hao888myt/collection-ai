@@ -35,11 +35,11 @@ def generator():
                 "group_2",
                 "你的选择是？",
                 [
-                    Choice("jie_jie", "sds", "group_1"),
+                    Choice("jie_jie", "哦天这是一个测试文本", "group_1"),
                     JieJie.choice("好感度够了", "group_1").add_condition(
                         Condition(ConditionType.REQUIRED_AFFINITY, 10)
                     ),
-                    JieJie.choice("sds", "group_jiejie").add_effect(
+                    JieJie.choice("哦天这还是一个测试文本", "group_jiejie").add_effect(
                         Effect(EffectType.MODIFY_AFFINITY, 1)
                     ),
                 ],
