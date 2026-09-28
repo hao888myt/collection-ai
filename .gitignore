@@ -1,0 +1,8 @@
+foundation/hao888myt/task1/galgame/data/
+
+.vscode/
+
+__pycache__/
+*.pyc
+*.pyo
+
